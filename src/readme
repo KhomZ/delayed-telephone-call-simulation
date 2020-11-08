@@ -1,0 +1,6 @@
+Delayed Telephone Call Simulation
+
+The simulation of a telephone call system, where the calls which couldn't be connected wait for lines to get free, and then connect once a line is free.
+
+This is onw of the project created by me for the fulfillment of the assignment of Sem-VI during college days of my Bachelor's of Computer Engineering under the course Simulation and Modelling.
+
