@@ -83,12 +83,33 @@ public class Call {
         }
 
         //public String toString(){
+        /**
         public String toString() {
             if(this.fromLine.equals(null) || this.toLine.equals(null)){
                 return "Call cannot be connected";
             }else{
                 return "Call From " + this.fromLine.getId() + " To " + this.toLine.getId() + " Arrived at " + new Date(this.arrivalTimestamp) + " for duration " + (duration/1000) + ((this.admittedTimestamp != 0) ? " Admitted at " + (new Date(this.arrivalTimestamp)) : " not admitted ");
             }
+        }
+
+        public static void main(String[] args){
+            if(this.fromLine.equals(null) || this.toLine.equals(null)){
+                return "Call cannot be connected";
+            }else{
+                return "Call From " + this.fromLine.getId() + " To " + this.toLine.getId() + " Arrived at " + new Date(this.arrivalTimestamp) + " for duration " + (duration/1000) + ((this.admittedTimestamp != 0) ? " Admitted at " + (new Date(this.arrivalTimestamp)) : " not admitted ");
+            }
+        }
+         */
+
+
+
+
+    }
+    public String toString() {
+        if(this.fromLine.equals(null) || this.toLine.equals(null)){
+            return "Call cannot be connected";
+        }else{
+            return "Call From " + this.fromLine.getId() + " To " + this.toLine.getId() + " Arrived at " + new Date(this.arrivalTimestamp) + " for duration " + (duration/1000) + ((this.admittedTimestamp != 0) ? " Admitted at " + (new Date(this.arrivalTimestamp)) : " not admitted ");
         }
     }
 
